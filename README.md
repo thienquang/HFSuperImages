@@ -22,7 +22,7 @@ pod 'HFSuperImages'
 
 ## Author
 
-thienlequang, thien.lequang@asnet.com.vn
+thienlequang
 
 ## License
 
