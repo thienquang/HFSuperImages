@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HFSuperImages'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HFSuperImages.'
+  s.summary          = 'A convenience CocoaPod that extend HFSuperImages.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/thienlequang/HFSuperImages'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'thienlequang' => 'thien.lequang@asnet.com.vn' }
-  s.source           = { :git => 'https://github.com/thienlequang/HFSuperImages.git', :tag => s.version.to_s }
+  s.author           = { 'thienquang' => 'quangthien@outlook.com' }
+  s.source           = { :git => 'https://github.com/thienquang/HFSuperImages.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
