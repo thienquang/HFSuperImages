@@ -41,9 +41,9 @@
 		7E01554FD3386C081E16DE30 /* Pods-HFSuperImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSuperImages_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFSuperImages_Tests/Pods-HFSuperImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		84F385F640336E3F3084F09D /* Pods-HFSuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSuperImages_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFSuperImages_Example/Pods-HFSuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D6E0EDD665C88FC04FDA2B6 /* Pods-HFSuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSuperImages_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFSuperImages_Tests/Pods-HFSuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9DCDA8261BE71FECF387980B /* HFSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HFSuperImages.podspec; path = ../HFSuperImages.podspec; sourceTree = "<group>"; };
-		9DDC7CACD54B2AFC1C200ACB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AD6F9AF5C4016E385B7582B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9DCDA8261BE71FECF387980B /* HFSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HFSuperImages.podspec; path = ../HFSuperImages.podspec; sourceTree = "<group>"; };
+		9DDC7CACD54B2AFC1C200ACB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AD6F9AF5C4016E385B7582B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B5195CCB380C623ED724712D /* Pods_HFSuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFSuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EEACE7A0987EF0824D41C2 /* Pods-HFSuperImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSuperImages_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFSuperImages_Example/Pods-HFSuperImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C613FA27303496CE46001DB4 /* Pods_HFSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -560,6 +560,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFSuperImages_Example.app/HFSuperImages_Example";
 			};
 			name = Debug;
 		};
@@ -577,6 +578,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFSuperImages_Example.app/HFSuperImages_Example";
 			};
 			name = Release;
 		};
