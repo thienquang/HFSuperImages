@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Just a simple pod to know how to create one.
+A convenience CocoaPod that extend HFSuperImages.
                        DESC
 
   s.homepage         = 'https://github.com/thienlequang/HFSuperImages'
